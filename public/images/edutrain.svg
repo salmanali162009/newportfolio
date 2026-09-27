@@ -1,0 +1,24 @@
+﻿<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#0e1014"/>
+  <radialGradient id="glow" cx="0.4" cy="0" r="1">
+    <stop offset="0%" stop-color="#8b93ff" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#8b93ff" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="800" height="500" fill="url(#glow)"/>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+  </pattern>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g stroke="#ffffff" stroke-opacity="0.10">
+    <rect x="732" y="28" width="40" height="40" fill="none"/>
+    <rect x="760" y="28" width="12" height="40" fill="none"/>
+    <rect x="732" y="44" width="40" height="12" fill="none"/>
+  </g>
+  <text x="64" y="120" font-family="Consolas, Courier New, monospace" font-size="13" letter-spacing="4" fill="#8b93ff">CASE STUDY</text>
+  <rect x="64" y="244" width="4" height="56" fill="#8b93ff"/>
+  <text x="88" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="600" fill="#e8eaf1" letter-spacing="0.5">EduTrain</text>
+  <text x="88" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#6b7280">React · TypeScript · Modern Web App</text>
+  <text x="64" y="446" font-family="Consolas, Courier New, monospace" font-size="12" letter-spacing="2" fill="#4b5563">PLACEHOLDER PREVIEW — SWAP WITH SCREENSHOT</text>
+  <text x="736" y="446" text-anchor="end" font-family="Consolas, Courier New, monospace" font-size="12" letter-spacing="2" fill="#4b5563">01 / 07</text>
+</svg>

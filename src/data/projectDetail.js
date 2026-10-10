@@ -1,15 +1,24 @@
-﻿import {
+﻿
+import {
   FaReact,
   FaHtml5,
   FaCss3Alt
 } from "react-icons/fa";
+
 
 import {
   SiJavascript,
   SiFirebase,
   SiAntdesign,
   SiTypescript,
-  SiCloudinary
+  SiCloudinary,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb
+} from "react-icons/si";
+
+import {
+  SiJsonwebtokens
 } from "react-icons/si";
 
 import edutrain from "../assets/edutrain.jpg";
@@ -19,9 +28,49 @@ import obsidian from "../assets/obsidien.jpg";
 import antddash from "../assets/antddash.jpg";
 import qr from "../assets/qr.jpg";
 import fancy from "../assets/fancy.jpg";
+import BazarioIMG from "../assets/bazario.jpg";
+
 const projectDetail = [
+  // 1. Bazario
   {
     id: 1,
+    slug: "bazario",
+    title: "Bazario",
+    description:
+      "A full-stack e-commerce application built with the MERN stack, featuring product browsing, authentication, and order checkout.",
+    longDescription:
+      "Bazario is a full-stack e-commerce web application built using React, Node.js, Express.js, and MongoDB. It features product listings, product detail pages, user authentication, and a checkout workflow with Cash on Delivery. The project demonstrates frontend and backend integration, REST API development, database operations, and responsive web development.",
+    image: BazarioIMG,
+    category: "Full Stack / MERN",
+
+technologies: [
+  { name: "React", icon: FaReact },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "Express.js", icon: SiExpress },
+  { name: "MongoDB", icon: SiMongodb },
+  { name: "Cloudinary", icon: SiCloudinary },
+
+{ name: "JWT Authentication", icon: SiJsonwebtokens }
+],
+
+    liveUrl: "https://bazario-v1.vercel.app/",
+    githubUrl: "",
+    featured: true,
+    features: [
+      "Product listing and product detail pages",
+      "User authentication",
+      "Checkout with Cash on Delivery",
+      "React frontend integrated with REST APIs",
+      "Node.js and Express.js backend",
+      "MongoDB database integration",
+      "Responsive e-commerce interface"
+    ]
+  },
+
+  // 2. EduTrain
+  {
+    id: 2,
     slug: "edutrain",
     title: "EduTrain",
     description:
@@ -30,7 +79,9 @@ const projectDetail = [
       "EduTrain is a comprehensive e-learning platform that presents courses, lessons and learning paths through a clean, responsive interface built with React. The project emphasizes component-driven architecture, smooth routing and a polished user experience across all device sizes.",
     image: edutrain,
     category: "React",
-    technologies: [{ name: "React", icon: FaReact }],
+    technologies: [
+      { name: "React", icon: FaReact }
+    ],
     liveUrl: "https://edutrain.netlify.app/",
     githubUrl: "",
     featured: true,
@@ -40,8 +91,10 @@ const projectDetail = [
       "Clean, modern course presentation layout"
     ]
   },
+
+  // 3. Xplosive Fitness
   {
-    id: 2,
+    id: 3,
     slug: "xplosive-fitness",
     title: "Xplosive Fitness",
     description:
@@ -67,8 +120,10 @@ const projectDetail = [
       "Cloudinary-powered media optimization"
     ]
   },
+
+  // 4. React Ecommerce Store
   {
-    id: 3,
+    id: 4,
     slug: "react-ecommerce-store",
     title: "React Ecommerce Store",
     description:
@@ -81,7 +136,8 @@ const projectDetail = [
       { name: "React", icon: FaReact },
       { name: "TypeScript", icon: SiTypescript }
     ],
-    liveUrl: "https://salmanali162009.github.io/react-ecommerce-store/",
+    liveUrl:
+      "https://salmanali162009.github.io/react-ecommerce-store/",
     githubUrl: "",
     featured: true,
     features: [
@@ -90,8 +146,10 @@ const projectDetail = [
       "Responsive shopping layout"
     ]
   },
+
+  // 5. Ant Design Dashboard
   {
-    id: 4,
+    id: 5,
     slug: "ant-design-dashboard",
     title: "Ant Design Dashboard",
     description:
@@ -100,7 +158,9 @@ const projectDetail = [
       "This dashboard showcases the power of Ant Design for building professional, data-rich admin interfaces. It features structured layouts, reusable UI components and a clean visual hierarchy suitable for enterprise applications.",
     image: antddash,
     category: "Dashboard",
-    technologies: [{ name: "Ant Design", icon: SiAntdesign }],
+    technologies: [
+      { name: "Ant Design", icon: SiAntdesign }
+    ],
     liveUrl: "https://antdproject.netlify.app/",
     githubUrl: "",
     featured: false,
@@ -110,8 +170,10 @@ const projectDetail = [
       "Reusable, data-driven UI sections"
     ]
   },
+
+  // 6. QR Tools
   {
-    id: 5,
+    id: 6,
     slug: "qr-tools",
     title: "QR Tools",
     description:
@@ -133,8 +195,10 @@ const projectDetail = [
       "Lightweight and performant"
     ]
   },
+
+  // 7. Fancy Text Generator
   {
-    id: 6,
+    id: 7,
     slug: "fancy-text-generator",
     title: "Fancy Text Generator",
     description:
@@ -156,8 +220,10 @@ const projectDetail = [
       "Responsive and easy to use"
     ]
   },
+
+  // 8. Obsidian Motors
   {
-    id: 7,
+    id: 8,
     slug: "obsidian-motors",
     title: "Obsidian Motors",
     description:
@@ -183,4 +249,3 @@ const projectDetail = [
 ];
 
 export default projectDetail;
-

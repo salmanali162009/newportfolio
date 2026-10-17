@@ -8,7 +8,8 @@ import {
 
 import {
   SiJavascript,
-  SiFirebase,
+ 
+  
   SiAntdesign,
   SiTypescript,
   SiCloudinary,
@@ -22,7 +23,7 @@ import {
 } from "react-icons/si";
 
 import edutrain from "../assets/edutrain.jpg";
-import xplosive from "../assets/xplosivefitness.jpg";
+// import xplosive from "../assets/xplosivefitness.jpg";
 import ecommerce from "../assets/ecommerc.jpg";
 import obsidian from "../assets/obsidien.jpg";
 import antddash from "../assets/antddash.jpg";
@@ -93,33 +94,33 @@ technologies: [
   },
 
   // 3. Xplosive Fitness
-  {
-    id: 3,
-    slug: "xplosive-fitness",
-    title: "Xplosive Fitness",
-    description:
-      "A fitness platform integrating Firebase Authentication and Firestore with Cloudinary media handling.",
-    longDescription:
-      "Xplosive Fitness is a dynamic fitness web application that combines a striking frontend with real backend services. It uses Firebase Authentication for secure sign-in, Firestore for storing dynamic content and Cloudinary for optimized image delivery.",
-    image: xplosive,
-    category: "Frontend / Firebase",
-    technologies: [
-      { name: "HTML", icon: FaHtml5 },
-      { name: "CSS", icon: FaCss3Alt },
-      { name: "JavaScript", icon: SiJavascript },
-      { name: "Firebase Authentication", icon: SiFirebase },
-      { name: "Firebase Firestore", icon: SiFirebase },
-      { name: "Cloudinary", icon: SiCloudinary }
-    ],
-    liveUrl: "https://xplosivefitness.netlify.app/",
-    githubUrl: "",
-    featured: true,
-    features: [
-      "Firebase Authentication for secure user login",
-      "Firestore-backed dynamic content",
-      "Cloudinary-powered media optimization"
-    ]
-  },
+  // {
+  //   id: 3,
+  //   slug: "xplosive-fitness",
+  //   title: "Xplosive Fitness",
+  //   description:
+  //     "A fitness platform integrating Firebase Authentication and Firestore with Cloudinary media handling.",
+  //   longDescription:
+  //     "Xplosive Fitness is a dynamic fitness web application that combines a striking frontend with real backend services. It uses Firebase Authentication for secure sign-in, Firestore for storing dynamic content and Cloudinary for optimized image delivery.",
+  //   image: xplosive,
+  //   category: "Frontend / Firebase",
+  //   technologies: [
+  //     { name: "HTML", icon: FaHtml5 },
+  //     { name: "CSS", icon: FaCss3Alt },
+  //     { name: "JavaScript", icon: SiJavascript },
+  //     { name: "Firebase Authentication", icon: SiFirebase },
+  //     { name: "Firebase Firestore", icon: SiFirebase },
+  //     { name: "Cloudinary", icon: SiCloudinary }
+  //   ],
+  //   liveUrl: "https://xplosivefitness.netlify.app/",
+  //   githubUrl: "",
+  //   featured: true,
+  //   features: [
+  //     "Firebase Authentication for secure user login",
+  //     "Firestore-backed dynamic content",
+  //     "Cloudinary-powered media optimization"
+  //   ]
+  // },
 
   // 4. React Ecommerce Store
   {
